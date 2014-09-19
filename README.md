@@ -22,8 +22,8 @@ $ docker run --net=host camarox53/docker-apache2
 
 # The webserver is now running! :)
  Run one of the following to view it:
- $ firefox localhost 
- $ firefox [your Ip here]
- $ chromium-browser localhost
- $ chromium-browser [your ip here] 
+ ** $ firefox localhost 
+ ** $ firefox [your Ip here]
+ ** $ chromium-browser localhost
+ ** $ chromium-browser [your ip here] 
  
