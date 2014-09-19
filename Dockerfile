@@ -2,8 +2,9 @@
 FROM ubuntu:14.04
 MAINTAINER Cameron Morris - camarox53@gmail.com
 RUN apt-get -y update 
-apt-get install -y apache2 
-apt-get -y clean
+RUN apt-get install -y apache2 
+RUN apt-get -y clean
+RUN sudo apt-get install lxc-docker
 
 ENV VIRTUAL_DOMAIN camarox53.com
 ENV VIRTUAL_PORT 80
